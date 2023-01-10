@@ -8,6 +8,7 @@ pyautogui.PAUSE = 3
 pyautogui.press("winleft")
 pyautogui.write("chrome")
 pyautogui.press("enter")
+time.sleep(3)
 #pyautogui.alert("Vai começar, aperte OK e não mexa em nada.")
 #pyautogui.hotkey('ctrl', 't') # nova guia do chrome
 pyperclip.copy("https://drive.google.com/drive/folders/149xknr9JvrlEnhNWO49zPcw0PW5icxga") # endereço aonde arquivo está
